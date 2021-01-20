@@ -1,5 +1,6 @@
 from pandas_datareader import data
 
+#個別銘柄でデータ解析
 class Brand:
     def __init__(self,start, end, company_code):
         self.start = start
