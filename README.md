@@ -6,4 +6,8 @@ Pythonで株価の分析をしたいと思い立ち、Youtuberのキノコード
 メイン：stocks.py   
 クラス：brand.py, graph.py, n225.py   
 (その他はおそらく必要ではない)   
-※https://youtu.be/0-fZ47QudYo
+※https://youtu.be/0-fZ47QudYo　　　
+
+追記　　　
+同じくキノコードさんの動画(※)でテクニカル指標を追加した。メインのファイルに変更はない。
+※https://youtu.be/-x88kBpG0Bw
