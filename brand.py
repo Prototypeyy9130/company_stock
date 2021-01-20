@@ -4,8 +4,8 @@ class Brand:
     def __init__(self,start, end, company_code):
         self.start = start
         self.end = end
-        self.company_code = brand+'.JP'
-        self.df = data.DataReader(self.brand, 'stooq', self.start, self.end)
+        self.company_code = company_code+'.JP'
+        self.df = data.DataReader(self.company_code, 'stooq', self.start, self.end)
 
     #個別銘柄のコード
     def code(self):
